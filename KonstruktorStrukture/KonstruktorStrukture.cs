@@ -15,6 +15,7 @@ namespace Vsite.CSharp
     {
         public double Broj;
         public JedinicaDuljine Jedinica;
+
     }
 
 
@@ -23,7 +24,9 @@ namespace Vsite.CSharp
         public static void PozivPodrazumijevanogKonstruktora()
         {
             // TODO: Stvoriti objekt strukture Udaljenost i ispisati vrijednosti članova.
-
+            Udaljenost u = new Udaljenost();
+            Console.WriteLine(u.Broj);
+            Console.WriteLine(u.Jedinica);
             
             // TODO: U definiciji strukture Udaljenost dodati prazan konstruktor koji će inicijalizirati članove na neku vrijednost.
             // TODO: Stvoriti objekt pozivom tog konstruktora te ispisati vrijednosti članova.
