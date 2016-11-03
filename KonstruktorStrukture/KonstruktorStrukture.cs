@@ -23,7 +23,7 @@ namespace Vsite.CSharp
     {
         public static void PozivPodrazumijevanogKonstruktora()
         {
-            // TODO: Stvoriti objekt strukture Udaljenost i ispisati vrijednosti članova.
+            // Stvoriti objekt strukture Udaljenost i ispisati vrijednosti članova.
             Udaljenost u = new Udaljenost();
             Console.WriteLine(u.Broj);
             Console.WriteLine(u.Jedinica);
